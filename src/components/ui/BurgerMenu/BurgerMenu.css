@@ -1,0 +1,97 @@
+.burger--links {
+  position: absolute;
+  top: 10%;
+  right: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 100;
+}
+.burger--links a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.burger--container {
+  position: relative;
+  right: 0;
+  top: 0;
+  width: 100%;
+  min-width: 320px;
+  height: 100vh;
+  opacity: 1;
+  transition: opacity 0.25s ease 0s;
+}
+
+.burger--back {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 99;
+  width: 95%;
+  height: 100vh;
+}
+.burger--back img {
+  width: 100%;
+  height: 100vh;
+}
+
+.burgerBtn {
+  border-radius: 5px;
+  height: 30px;
+  background-color: #ffac04;
+  color: white;
+  font-size: 20px;
+}
+@media (max-width: 769px) {
+  .burger--links {
+    top: 50px;
+    right: 120px;
+  }
+}
+@media (max-width: 648px) {
+  .burger--links {
+    top: 50px;
+    right: 100px;
+  }
+}
+@media (max-width: 598px) {
+  .burger--links {
+    top: 50px;
+    right: 80px;
+  }
+}
+@media (max-width: 543px) {
+  .burger--links {
+    top: 50px;
+    right: 80px;
+  }
+}
+@media (max-width: 500px) {
+  .burger--links {
+    top: 50px;
+    right: 50px;
+  }
+}
+@media (max-width: 426px) {
+  .burger--links {
+    top: 50px;
+    right: 30px;
+  }
+  .burger--links a {
+    font-size: 22px;
+  }
+}
+@media (max-width: 376px) {
+  .burger--links a {
+    font-size: 18px;
+  }
+}
+@media (max-width: 325px) {
+  .burger--links a {
+    font-size: 16px;
+  }
+}

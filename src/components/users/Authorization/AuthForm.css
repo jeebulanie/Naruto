@@ -1,0 +1,64 @@
+.authForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.authForm h1 {
+  font-size: 32px;
+  color: white;
+  font-family: sans-serif;
+}
+.authForm p {
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.authForm a {
+  color: #ffac41;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+.authForm a:hover {
+  filter: brightness(120%);
+  box-shadow: 0 0 30px #ffac41;
+}
+
+.auth--content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: sans-serif;
+}
+.auth--content input {
+  background-color: transparent;
+  border-radius: 10px;
+  height: 30px;
+  border: 3px solid #07794c;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.auth--content input::placeholder {
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding-left: 5px;
+}
+.auth--content button {
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #07794c;
+  cursor: pointer;
+  border: 1px solid black;
+  font-family: sans-serif;
+}
+.auth--content button:hover {
+  filter: brightness(110%);
+  -moz-box-shadow: 0 0 20px #12e390;
+  -webkit-box-shadow: 0 0 20px #12e390;
+  box-shadow: 0 0 20px #12e390;
+}

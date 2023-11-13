@@ -1,0 +1,25 @@
+.one--comment {
+  background-color: #0088cc;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 90%;
+  margin: 10px 0;
+  overflow: hidden;
+  margin-left: 5px;
+}
+.one--comment p {
+  color: white;
+}
+@media (max-width: 330px) {
+  .one--comment {
+    margin-left: 2%;
+    padding: 5px;
+  }
+  .commentDeleteBtn {
+    font-size: 8px;
+  }
+  .one--comment p {
+    font-size: 8px;
+  }
+}

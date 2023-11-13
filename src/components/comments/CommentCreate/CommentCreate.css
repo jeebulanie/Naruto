@@ -1,0 +1,58 @@
+.comment--creator {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #1f1f1f;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  resize: horizontal;
+  width: 90%;
+  height: 100px;
+}
+.btns--block {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.btns--block button {
+  padding: 5px;
+  background-color: #0088cc;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+@media (max-width: 500px) {
+  .comment--creator {
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  .btns--block {
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+  }
+  .btns--block select {
+    width: 60px;
+    font-size: 10px;
+  }
+  .btns--block button {
+    padding: 2px;
+    width: 70px;
+    font-size: 8px;
+  }
+
+  .comment--creator {
+    height: 20px;
+  }
+}

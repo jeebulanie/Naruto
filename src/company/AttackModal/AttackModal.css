@@ -1,0 +1,18 @@
+.attack--container {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: auto; */
+  width: 100%;
+  height: 100%;
+  z-index: 88;
+  border-radius: 10px;
+}
+
+.attack--container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  object-fit: cover;
+}

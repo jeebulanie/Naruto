@@ -1,0 +1,62 @@
+.regForm {
+  background-color: rgb(0, 0, 0, 0.8);
+  border-radius: 30px;
+  width: 92%;
+}
+
+.regForm h1 {
+  font-size: 30px;
+  color: white;
+  font-family: sans-serif;
+}
+.regForm p {
+  color: white;
+  font-family: sans-serif;
+}
+.regForm a {
+  color: #ffac04;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.regForm a:hover {
+  filter: brightness(120%);
+  box-shadow: 0 0 30px #ffac04;
+}
+.reg__content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: sans-serif;
+}
+.reg__content input {
+  background-color: transparent;
+  border-radius: 10px;
+  height: 30px;
+  border: 3px solid #ffac04;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.reg__content input::placeholder {
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding-left: 5px;
+}
+.reg__content button {
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #ffac04;
+  cursor: pointer;
+  border: 1px solid black;
+  font-family: sans-serif;
+}
+.reg__content button:hover {
+  filter: brightness(110%);
+  -moz-box-shadow: 0 0 20px #ffac04;
+  -webkit-box-shadow: 0 0 20px #ffac04;
+  box-shadow: 0 0 20px #ffac04;
+}

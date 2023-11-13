@@ -1,0 +1,50 @@
+.favorites-list-container {
+  width: 90%;
+  height: auto;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 0;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.favorites-list-header {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffac41;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.favorites-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 130px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 5px 0;
+}
+
+.favorites-list-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.favorites-list-button {
+  margin-top: 4px;
+  background-color: #ffac41;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}

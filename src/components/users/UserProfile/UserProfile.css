@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akari&display=swap");
+.UserProfileMain {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Yuji Hentaigana Akari", cursive;
+}
+
+.UserProfileMain::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://moewalls.com/wp-content/uploads/2023/04/akatsuki-members-and-logo-thumb.jpg");
+  filter: brightness(50%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
+  z-index: -1;
+}
+
+.UserProfileRight {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 640px) {
+  .forWr {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .NameInv {
+    margin-top: 20px;
+  }
+}

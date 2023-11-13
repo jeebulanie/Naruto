@@ -1,0 +1,30 @@
+/* CardsPriceRangeFilter.css */
+
+/* Стили для контейнера элементов */
+.cards--range-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Стили для полей ввода */
+.cards-price-range-container input {
+  width: 40%;
+  padding: 8px;
+  border: 1px solid orange;
+  border-radius: 4px;
+  margin: 0 10px;
+}
+
+/* Стили для кнопки */
+.cards-price-range-container button {
+  padding: 8px 20px;
+  background-color: black;
+  color: orange;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cards-price-range-container button:hover {
+  background-color: rgb(32, 29, 29);
+}

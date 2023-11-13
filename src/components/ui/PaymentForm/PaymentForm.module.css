@@ -1,0 +1,60 @@
+.paymentForm {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.paymentFormContent {
+  width: 35rem;
+  height: 35rem;
+  margin: 0 10px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: relative;
+  cursor: pointer;
+}
+
+.paymentFormContent span {
+  position: absolute;
+  right: 5%;
+  top: 2%;
+  font-size: 30px;
+}
+
+.creditCard {
+  margin: 3% 0;
+}
+
+.paymentInputs {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.paymentInputs input {
+  margin: 7px 0;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.paymentFormContent button {
+  width: 30%;
+  margin: 30px auto 0;
+  padding: 10px 0;
+  border-radius: 20px;
+  background-color: rgb(217, 119, 0);
+  color: white;
+  cursor: pointer;
+  border: none;
+}

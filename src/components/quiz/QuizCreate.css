@@ -1,0 +1,64 @@
+.quiz-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/1612118482566-UAK7L5MO552SWFEPH6VD/Naruto14.jpg");
+  filter: brightness(50%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
+  z-index: -1;
+}
+
+.quiz-form {
+  width: 30rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 1%;
+  background-color: rgb(255, 255, 255, 0.5);
+  padding: 2%;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+}
+
+.quiz-form input {
+  margin: 7px 0;
+  width: 85%;
+  border-radius: 10px;
+  padding: 2%;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.button {
+  background-color: rgb(12, 67, 87);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.quiz-form select {
+  width: 90%;
+  border-radius: 10px;
+  padding: 2%;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}

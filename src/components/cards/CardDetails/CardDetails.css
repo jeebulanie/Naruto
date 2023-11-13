@@ -1,0 +1,29 @@
+.card--details__main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.card--details__img {
+  position: relative;
+}
+.details--descr {
+  padding-left: 10px;
+  font-size: 24px;
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  color: black;
+  font-weight: bold;
+}
+@media (max-width: 1024px) {
+  .details--descr {
+    font-size: 20px;
+  }
+}
+@media (max-width: 330px) {
+  .card--details__main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+}

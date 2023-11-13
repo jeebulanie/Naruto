@@ -1,0 +1,50 @@
+.card--footer {
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 250px;
+  height: 50px;
+  margin: 0 auto;
+}
+.card--likes {
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.like--btn {
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+.likes--count {
+  color: white;
+}
+.CardPrice {
+  cursor: pointer;
+  padding: 1%;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: black;
+  border: none;
+}
+.card--fav {
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+.card--toCart {
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+.card--details {
+  color: white;
+  cursor: pointer;
+}
+.card--details:hover {
+  color: rgb(255, 255, 109);
+}

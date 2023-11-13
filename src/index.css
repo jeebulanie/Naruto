@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  background-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Scrollbar start */
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #3b3b3b;
+  opacity: 0.5;
+}
+::-webkit-scrollbar-thumb {
+  background: #1b1b1b;
+  border-radius: 6px;
+  opacity: 0.5;
+}
+/* Scrollbar end */
+
+.returnLink {
+  text-decoration: none;
+  padding: 10px;
+  background-color: orange;
+  color: white;
+  font-weight: 800;
+  border-radius: 20px;
+}
+
+.createPage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://moewalls.com/wp-content/uploads/2023/04/akatsuki-members-and-logo-thumb.jpg");
+  filter: brightness(50%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
+  z-index: -1;
+}
+
+.quizzesPageA::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://moewalls.com/wp-content/uploads/2023/04/akatsuki-members-and-logo-thumb.jpg");
+  filter: brightness(50%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
+  z-index: -1;
+}
+
+.casePage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://moewalls.com/wp-content/uploads/2023/04/akatsuki-members-and-logo-thumb.jpg");
+  filter: brightness(50%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
+  z-index: -1;
+}
+
+.ratingPage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://moewalls.com/wp-content/uploads/2023/04/akatsuki-members-and-logo-thumb.jpg");
+  filter: brightness(50%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
+  z-index: -1;
+}
+
+.luckyText {
+  color: white;
+  -webkit-text-stroke: 1.5px black;
+  font-size: 30px;
+  margin-top: 100px;
+  font-weight: 800;
+  text-align: center;
+}

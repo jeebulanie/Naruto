@@ -1,0 +1,23 @@
+.cardsMenu {
+  display: flex;
+  width: 850px;
+  flex-wrap: wrap;
+  height: 100%;
+  overflow-y: auto;
+  border: 1px solid black;
+  background-image: url("https://oir.mobi/uploads/posts/2021-03/1616552766_26-p-chernii-matovii-fon-31.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1430px) {
+  .cardsMenu {
+    width: 570px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .cardsMenu {
+    width: 300px;
+  }
+}

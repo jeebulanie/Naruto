@@ -1,0 +1,81 @@
+.cardEditPage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardEditPage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://moewalls.com/wp-content/uploads/2023/04/akatsuki-members-and-logo-thumb.jpg");
+  filter: brightness(50%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
+  z-index: -1;
+}
+
+.cardEditForm {
+  width: 30rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 1%;
+  background-color: rgb(255, 255, 255, 0.5);
+  padding: 2%;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+}
+.cardEditForm h1 {
+  font-size: 150%;
+  margin: 20px 0;
+  border: 2px solid black;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+.cardEditForm input {
+  margin: 7px 0;
+  width: 85%;
+  border-radius: 10px;
+  padding: 2%;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.cardEditForm select {
+  width: 90%;
+  border-radius: 10px;
+  padding: 2%;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.cardEditForm textarea {
+  width: 85%;
+  border-radius: 10px;
+  padding: 2%;
+  color: white;
+  background-color: black;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.cardEditForm button {
+  background-color: rgb(249, 100, 0);
+  color: white;
+  padding: 3%;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}

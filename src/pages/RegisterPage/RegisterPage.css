@@ -1,0 +1,53 @@
+.register {
+  position: relative;
+  height: 100vh;
+}
+
+.register img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  filter: brightness(70%);
+  z-index: -1;
+}
+
+.regForm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 400px;
+  width: 92%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.regForm input {
+  width: 95%;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .regForm {
+    max-width: 57%;
+  }
+  .regForm input {
+    width: 94%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .regForm {
+    max-width: 68%;
+  }
+}
+
+@media (max-width: 320px) {
+  .regForm {
+    max-width: 68%;
+  }
+}
